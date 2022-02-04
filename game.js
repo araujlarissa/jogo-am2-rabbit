@@ -38,8 +38,8 @@ var game = {
 function startGame() {
     square = new component(30, 30, "assets/nave.png", 10, 120, "image");
     background = new component(493, 270, "assets/bg.jpg", 0, 0, "background");
-    scoreboard = new component("30px", "Bebas Neue", "white", 370, 305, "text");
-    lessScore = new component("18px", "Roboto", "yellow", 454, 290, "text");  
+    scoreboard = new component("30px", "Bebas Neue", "white", 365, 305, "text");
+    lessScore = new component("18px", "Roboto", "yellow", 460, 290, "text");  
     game.start();
 }
 
